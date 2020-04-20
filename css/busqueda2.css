@@ -1,0 +1,107 @@
+@import url(estilos.css);
+
+body{
+    background:url(../img/banner/fondo1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sinresul {
+    width: 50%;
+    height: auto;
+    margin:80px auto;
+    background-color: rgb(0,0,0,.5);
+    padding: 20px;
+
+}
+
+.sinresul .container{
+   
+    color:#fff;
+    text-align: center;
+    padding: 14px 0;
+
+}
+
+.sinresul .container select{
+    background-color: rgb(0,0,0,.1);
+    color:#fff;
+}
+
+.sinresul .container p{
+    font-family:Franklin Gothic Medium ;
+
+
+    }
+
+.sinresul .container input{
+    background-color: rgb(0,0,0,.7);
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #040883;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Franklin Gothic Medium;
+        }
+
+
+.sinresul .container .btn{
+        width: 100%;
+    font-family: Helvetica;
+    outline: none;
+    background: rgba(82,82,91,.5);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.btn blue {
+    text-align: center;
+}
+
+.resultado {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+.formu {
+    
+    float: center;
+    
+}
+
+.mail {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#footerr{
+font-size: 10%;
+font-family: helvetica;
+margin-bottom: 0px ;
+}
+.resultado{
+    
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    background: rgb(0,0,0,.5);
+    border-width: 10px;
+    text-align: center; 
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+}
+

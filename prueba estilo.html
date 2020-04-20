@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabajo1</title>
+	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+	<link rel="icon" type="imagen/jpg" href="utn.jpg">
+	
+</head>
+		<body>
+					<div id="header">
+							<div id="logo"> <img  width="120px" height="80px" src="tp.jpg"/> </div>
+			 				<div id="encabezado"> <h3>TP N1 - Lyde Erika</h3> </div> 
+					</div> 
+		
+		<div id="principal">
+
+							
+							<div id="vi">
+								<p class="frase"  align="center"> <?php
+								$frases= array(
+									1 => "Llenos de Vida",
+									2 => "Llenos de Magia",
+									3 => "Que se den cuenta que estamos cerca",
+								);
+								$numero = rand(1,3);
+									if ( $numero == '1') {
+									
+									
+										echo "<p class=primera>$frases[$numero]</p>";
+									}
+									if ($numero == '2') {
+									
+									
+										echo "<p class=segunda>$frases[$numero]</p>";
+									}
+									if ($numero == '3') {
+									
+									
+										echo "<p class='tercera'>$frases[$numero]</p>";
+									}
+
+									
+								?> </p>
+			                <br>
+
+								<iframe  src="Llenos_Peque.mp4" frameborder="1" allowfullscreen width="400px"></iframe>
+								<br>
+							<embed src="musica.mp3" width="400px" height="80px"></embed>
+						</div>
+						<div id="lateral">
+								<a href="Inicio.php">Inico</a>
+								<br>
+								<a href="ValidacionCliente.html">Validacion Cliente</a>
+								<br>
+								<a href="ValidacionServidor.html">Validacion Servidor</a>
+								<br>
+								<a href="OperadorJquery.html">Operacion Jquery</a>
+			
+							</div>	
+			
+		</div>	
+			
+		<footer style="background: grey"> <p align="right">TYG WEB</p></footer>
+</body>
+</html>

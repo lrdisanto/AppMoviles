@@ -1,0 +1,39 @@
+@import url(estilos.css);
+@import url(estilos3.css);
+
+.container {
+    width: 350px;
+    height: auto;
+    margin-left: 650px;
+  
+    margin-top: 80px;
+}
+
+.btn blue {
+    text-align: center;
+}
+
+.resultado {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+.formu {
+    
+    float: center;
+    
+}
+
+.mail {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#footerr{
+
+margin-bottom: 0px ;
+}

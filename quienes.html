@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Quienes somos</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/fontello.css">
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<link rel="stylesheet" href="css/quienes.css">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximumscale= 1.0, user-scalable=no" />
+
+<meta charset="utf-8">
+</head>
+
+<body>
+    
+    <header>
+        <div class="contenedor">
+            <h1 class="icon-avion">Travel it</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>   
+                <a href="buscar.html">Buscar</a> 
+                <a href="quienes.html">Quienes somos</a>
+                  <a href="contacto.html">Contactanos</a> 
+            </nav>
+
+
+        </div>
+    </header> 
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+ <div class="todo" id="todo">
+                            <div id="twitter">
+                                <a class="twitter-timeline" data-width="220" data-height="300" data-theme="dark" href="https://twitter.com/travelit4?ref_src=twsrc%5Etfw">Tweets by travelit4</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+
+                    <div class="info" id="info">
+                        <h2>No sabes a donde ir?</h2>
+                        <p>Decinos tus preferencias y nosotros te mostramos todos los destinos que se amoldan a vos </p>
+
+                        <br>
+                        <h3> Dejanos Inspirarte</h3>
+                        <p>Todos merecen una aventura increible o por lo menos una escapada de la ciudad. Nosotros buscamos que amplies tus horizontes y brindarte informacion para que puedas elegir tu destino ideal.</p>
+                        <br>
+                    
+                        <i>Podes contactarte con nosotros a los siguientes numeros</i>
+                            <p> (011) 1562598745</p>
+                            <p> (011) 1524896578</p>
+
+                            <i>Y sino, visita nuestro twitter y te respondemos a la brevedad</i>
+                    </div>
+
+
+
+                    	<div class="mapa" id="mapa">
+
+                    	           <div id ="map"> 
+                    	                   <script>
+                    	
+                                            	var map = L.map('map');
+                                            	   	
+                                            	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+                                            	
+                                            	function buscarLocalizacion(e) {
+                                            		L.marker(e.latlng).addTo(map);
+                                            		}
+                                            		
+                                            	function errorLocalizacion(e) {
+                                            		alert("No es posible encontrar su ubicación. Es posible que tenga que activar la geolocalización. Prueba con Firefox ;-)");
+                                            }
+
+                                            	map.on('locationerror', errorLocalizacion);
+                                            	map.on('locationfound', buscarLocalizacion);
+                                            	
+                                            	map.locate({setView: true, maxZoom:14});
+                                            	
+                                                </script> 
+
+                                     </div>
+                                    <p id="locazion" style="color: gray; text-align: center;">Direccion:Calle356 n569</p>
+                         </div>
+                    
+
+</div>
+
+ 
+                         
+
+
+                            <footer class="contfooter">
+                                <div class="contenedor">
+                                    <p class="copy"> Travel &copy; 2020
+
+                                    </p>
+                                    <div class="sociales">
+                                        <a class="icon-facebook" href=""></a>
+                                        <a class="icon-twitter" href=""></a>
+                                        <a href="icon-instagram"></a>
+                                        <a href="icon-google"></a>
+                                    </div>
+                                </div>
+
+
+
+    </footer>
+
+
+	</body>
+</html>

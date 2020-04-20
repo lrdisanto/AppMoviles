@@ -1,0 +1,89 @@
+@import url(estilos.css);
+
+
+.contfooter{
+    margin-top: 350px;
+    margin-left: 50;
+}
+
+.mapa #map {
+    width:270px;
+	height: 270px;
+	margin-top: 30px;
+}
+
+.mapa{
+	float: right;
+	width: 330px;
+	height: 350px;
+	background: rgb(0,0,0,.5);
+	padding-left: 30px;
+	padding-right: 0px;
+	padding-top: 0px;
+	margin-top: 60px;
+	margin-right: -0px;
+	padding-bottom: 0px;
+
+
+}
+div#twitter{
+	float: left;
+	margin-left: -70px;
+	margin-top: 130px;
+	
+}
+
+div#info{
+	float: left;
+	margin-top: 70px;
+	width: 500px;
+	height: 300px;
+	margin-left: 100px;
+
+}
+
+div#todo{
+	margin:auto;
+	margin-top: 50px;
+	width: 1200px;
+	height: 800px;
+	
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	
+}
+
+
+
+body {
+    
+	background: url(../img/prueba13.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+/*.info{
+	width: 600px;
+	height: 300px;
+	margin-right: 200px;
+	margin-left: 50px;
+	margin-top: 100px;
+	background: red;
+
+			
+			
+
+}
+.mapa{
+	width: 365px;
+	height: 400px;
+	flex-direction: right;
+	background: rgb(0,0,0,.5);
+	padding-top: 80px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;}
